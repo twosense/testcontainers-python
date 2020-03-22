@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+codecov = "*"
+flake8 = "*"
+pytest = "*"
+pytest-cov = "*"
+docker-compose = "*"
+sqlalchemy = "*"
+pymysql = "*"
+cx_Oracle = "*"
+psycopg2-binary  = "*"
+selenium = "*"
+google-cloud-pubsub = "*"
+pymongo = "*"
+redis = "*"
+
+[packages]
+docker = "*"
+wrapt = "*"
+crayons = "*"
+blindspin = "*"
+
+[requires]
+python_version = "3.7"
